@@ -29,9 +29,9 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Clickmasters — Ghost Kitchen & Virtual Restaurant Systems" },
+      { title: "KitchenFlow — Ghost Kitchen & Virtual Restaurant Systems" },
       { name: "description", content: "Launch and scale virtual food brands without the overhead of traditional dining. Cloud kitchen infrastructure built for delivery-first operations." },
-      { property: "og:title", content: "Clickmasters — Ghost Kitchen & Virtual Restaurant Systems" },
+      { property: "og:title", content: "KitchenFlow — Ghost Kitchen & Virtual Restaurant Systems" },
       { property: "og:description", content: "Launch and scale virtual food brands without the overhead of traditional dining." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
