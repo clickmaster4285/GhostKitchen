@@ -96,26 +96,26 @@ const Footer = () => {
               <div className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-primary/70 shrink-0 mt-0.5" />
                 <p className="text-sm text-primary-foreground/70">
-                  123 Innovation Drive, Tech Valley, CA 94025
+               Paris Shopping Mall, 4th floor, Main PWD Rd, PWD Housing Society Sector A, Islamabad, Pakistan
                 </p>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-primary/70 shrink-0" />
                 <a href="tel:+1234567890" className="text-sm text-primary-foreground/70 hover:text-primary transition-colors">
-                  +1 (234) 567-890
+                  +92 333-1116842
                 </a>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-primary/70 shrink-0" />
                 <a href="mailto:hello@KitchenFlow.io" className="text-sm text-primary-foreground/70 hover:text-primary transition-colors">
-                  hello@KitchenFlow.io
+                  marketing@clickmasters.pk
                 </a>
               </div>
               <div className="flex items-start gap-3">
                 <Clock className="h-5 w-5 text-primary/70 shrink-0 mt-0.5" />
                 <p className="text-sm text-primary-foreground/70">
-                  Mon-Fri: 9:00 AM - 6:00 PM<br />
-                  Sat-Sun: Closed
+                  Mon-Sat: 9:00 AM - 6:00 PM<br />
+                  
                 </p>
               </div>
             </div>

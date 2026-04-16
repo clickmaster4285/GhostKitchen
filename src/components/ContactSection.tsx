@@ -95,16 +95,18 @@ const ContactSection = () => {
   return (
     <section id="contact" ref={ref} className="py-20 md:py-28 bg-background">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-12">
-          {/* Left side - Contact Info */}
-          <div className="space-y-6">
             <div className="contact-fade text-left">
               <SectionHeader
                 tag="Contact"
                 title="Let's Build Your Kitchen"
                 description="Ready to launch a delivery-first food brand? Get in touch."
               />
-            </div>
+        </div>
+        
+        <div className="grid lg:grid-cols-2 gap-12">
+          {/* Left side - Contact Info */}
+          <div className="space-y-6">
+        
 
             {/* Address */}
             <div className="contact-fade bg-card rounded-2xl p-6 border border-border hover:shadow-lg transition-shadow">
