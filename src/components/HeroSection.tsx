@@ -50,7 +50,7 @@ const HeroSection = () => {
             height={1080}
             {...(i !== 0 ? { loading: "lazy" as const } : {})}
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-background via-background/80 to-background/40" />
+          <div className="absolute inset-0 bg-gradient-to-r from-background/50 via-background/60 to-background/40" />
         </div>
       ))}
 
