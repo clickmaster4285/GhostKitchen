@@ -10,23 +10,25 @@ const AboutSection = () => {
     <section id="about" ref={ref} className="section-padding">
       <div className="mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-2 lg:gap-16">
         <div>
-          <SectionHeader tag="About Us" title="Technology That Powers Modern Food Brands" />
-          <div className="space-y-4 text-muted-foreground">
-            <p className="about-fade">
-              What started as a focused development team building solutions for real business
-              challenges has evolved into a full-scale technology partner for the food industry.
-            </p>
-            <p className="about-fade">
-              We partner with startups and enterprise operators across the food delivery ecosystem —
-              streamlining operations, maximizing efficiency, and enabling rapid scale through
-              cloud-native infrastructure.
-            </p>
-            <p className="about-fade text-foreground font-medium">
-              Today, Clickmasters builds the systems that power growth, operational excellence, and
-              long-term digital transformation for delivery-first food brands.
-            </p>
-          </div>
-        </div>
+  <SectionHeader 
+    tag="About Us" 
+    title="Technology That Powers Modern Food Brands" 
+  />
+
+  <div className="space-y-4 text-muted-foreground">
+    <p className="about-fade">
+      Clickmasters is a software development company focused on building high-performance digital solutions for modern food businesses. What began as a small team solving real operational challenges has grown into a trusted technology partner for delivery-first brands.
+    </p>
+
+    <p className="about-fade">
+      We work with startups and enterprise operators across the food delivery ecosystem — designing and developing scalable systems that streamline operations, improve efficiency, and support rapid growth through cloud-native infrastructure.
+    </p>
+
+    <p className="about-fade text-foreground font-medium">
+      Today, Clickmasters delivers custom software, automation tools, and digital platforms that power growth, operational excellence, and long-term transformation for food businesses.
+    </p>
+  </div>
+</div>
         <div className="about-fade overflow-hidden rounded-2xl">
           <img
             src={aboutImg}
